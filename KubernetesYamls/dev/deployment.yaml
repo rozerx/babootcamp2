@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: bootcamp2-html
-        image: ramozer/bootcamptest:v$DOCKER_BUILD_NUMBER
+        image: ramozer/bootcamp2:v$DOCKER_BUILD_NUMBER
         ports:
         - containerPort: 80
